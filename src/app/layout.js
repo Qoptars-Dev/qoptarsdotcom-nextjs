@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { Poppins, Montserrat } from "next/font/google";
 import "./globals.css";
 import DefaultNavbar from "./components/Navbar";
@@ -50,6 +51,7 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <DefaultNavbar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
