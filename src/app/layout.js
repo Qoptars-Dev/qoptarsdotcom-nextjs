@@ -25,19 +25,24 @@ export const metadata = {
     siteName: 'Qoptars.com',
     images: [
       {
-        url: 'https://scontent-bom1-2.xx.fbcdn.net/v/t39.30808-6/321055830_1500143100510918_3568979088490182499_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=S6qaPvIx2pAAX_2P6UM&_nc_ht=scontent-bom1-2.xx&oh=00_AfADQop8B_389GABaZcXImRGNdMjUdOXUeVPg6pfEKA9AA&oe=65466435',
+        url: 'https://www.qoptars.com/images/vision.webp',
         width: 800,
         height: 600,
-      },
-      {
-        url: 'https://scontent-bom1-2.xx.fbcdn.net/v/t39.30808-6/321055830_1500143100510918_3568979088490182499_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=S6qaPvIx2pAAX_2P6UM&_nc_ht=scontent-bom1-2.xx&oh=00_AfADQop8B_389GABaZcXImRGNdMjUdOXUeVPg6pfEKA9AA&oe=65466435',
-        width: 1800,
-        height: 1600,
-        alt: 'AirsonicS',
       },
     ],
     locale: 'en_US',
     type: 'website',
+  },
+  twitter: {
+    title: "Qoptars: Redefining Aerial Exploration",
+    description: "Unleash Your Creativity with Premium Videography Drones and Immersive FPV Quadcopters. Elevate Your Photography and Adventure to New Heights. Discover Your Perfect Drone Experience Now!",
+    image: 
+      {
+        url: 'https://www.qoptars.com/images/vision.webp',
+        width: 800,
+        height: 600,
+      },
+    locale: 'en_US',
   },
   robots: {
     index: true,
