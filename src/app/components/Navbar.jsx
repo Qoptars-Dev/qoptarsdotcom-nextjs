@@ -18,20 +18,16 @@ export default function DefaultNavbar() {
         <Navbar.Link
           active
           href="https://qoptars.com"
-        >
-          <p className='text-gray-100'>
+          className='text-gray-100'>
             Home
-          </p>
         </Navbar.Link>
         <Navbar.Link
           href="https://airfpv.in/" className='text-gray-100' target='_blank'
         >
-          <p>
-            AirFPV
-          </p>
+          AirFPV
         </Navbar.Link>
-        <Navbar.Link href="#" className='text-gray-100'>
-          Services
+        <Navbar.Link href="/vayu" className='text-gray-100'>
+          Vayu
         </Navbar.Link>
         <Navbar.Link href="#" className='text-gray-100'>
           Contact

@@ -9,7 +9,6 @@ import VerticalTimeline from "@/app/components/VerticalTimeline";
 import InvestorsSection from "@/app/components/InvestorsSection";
 import ClienteleSection from "@/app/components/ClienteleSection";
 import Contact from "@/app/components/Contact";
-import Footer from "@/app/components/Footer";
 
 export default function Home() {
   return (
@@ -35,7 +34,6 @@ export default function Home() {
         <InvestorsSection />
         <ClienteleSection />
         <Contact text="Feel free to contact us." />
-        <Footer />
     </div>
   )
 }

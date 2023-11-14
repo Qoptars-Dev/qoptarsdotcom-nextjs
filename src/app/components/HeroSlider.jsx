@@ -1,5 +1,6 @@
 "use client";
 import { Carousel } from "flowbite-react";
+import Link from "next/navigation";
 
 export default function HeroSlider() {
   return (
