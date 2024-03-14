@@ -1,13 +1,14 @@
 import { Analytics } from '@vercel/analytics/react';
 import { Poppins, Montserrat } from "next/font/google";
 import "./globals.css";
-// import "tw-elements/dist/css/tw-elements.min.css";
-import DefaultNavbar from "./components/Navbar";
-import Footer from "@/app/components/Footer";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import NavbarNew from './Components/Navbar';
+import FooterNew from './Components/Footer';
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["400"],
+  weight: ["400", "700"],
   variable: "--font-poppins"
 });
 
@@ -54,12 +55,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${mont.variable}`}>
+    <html lang="en" className={`${mont.variable} scroll-smooth`}>
       <body className={poppins.className}>
-        <DefaultNavbar />
+        <NavbarNew />
         {children}
-        <Footer />
         <Analytics />
+        <FooterNew />
       </body>
     </html>
   );
