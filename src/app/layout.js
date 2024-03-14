@@ -3,8 +3,8 @@ import { Poppins, Montserrat } from "next/font/google";
 import "./globals.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import NavbarNew from './Components/Navbar';
-import FooterNew from './Components/Footer';
+import NavbarNew from './components/Navbar';
+import FooterNew from './components/Footer';
 
 const poppins = Poppins({
   subsets: ["latin"],
