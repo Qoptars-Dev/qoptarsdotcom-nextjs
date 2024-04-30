@@ -2,7 +2,7 @@ import Pills from "./Pills"
 
 function Feature1() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row-reverse 2xl:pb-20 2xl:pt-6">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:my-10 flex flex-col-reverse md:flex-row-reverse 2xl:pb-20 2xl:pt-6">
     {/* <!-- Image Section --> */}
     <div className="md:w-1/2 p-6">
     <img src="images/vision.webp" alt="" className="w-full h-auto md:h-full md:w-auto mx-auto rounded-sm object-cover" />

@@ -14,6 +14,7 @@ import ModesSection from "./components/ModesSection";
 import OverlaySection from "./components/OverlaySection";
 import PriceSection from "./components/PriceSection";
 import Section1 from "./components/Section1";
+import Warranty from "./components/Warranty";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       <Feature4 />
       <ModesSection />
       <Feature5 />
+      <Warranty />
       <KitSection />
       <PriceSection />
       <AddonSection />

@@ -8,8 +8,8 @@ function NavbarNew() {
         <img src="/images/logo.png" className="mr-3 h-6 sm:h-9" alt="Qoptars Logo" />
       </NavbarBrand>
       <div className="flex md:order-2 gap-2">
-        <Button href="https://calendly.com/qoptars/vayu-product-booking" target='_blank'>Book Now</Button>
-        <NavbarToggle />
+        <Button className='enabled:hover:bg-none focus:ring-0 focus:ring-transparent' outline={false} href="https://calendly.com/qoptars/vayu-product-booking" target='_blank'>Book Now</Button>
+        <NavbarToggle className='mx-[2px] hover:bg-transparent focus:ring-0 focus:ring-transparent' />
       </div>
       <NavbarCollapse className='text-center'>
         <NavbarLink href="#" active className='text-slate-100'>

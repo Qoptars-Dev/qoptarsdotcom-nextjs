@@ -56,7 +56,7 @@ export default function FooterNew() {
               <FooterIcon href="https://www.instagram.com/qoptars" icon={BsInstagram} target='_blank'/>
               <FooterIcon href="https://linkedin.com/company/qoptars" icon={BsLinkedin} target='_blank'/>
             </div>
-            <FooterCopyright href="#" by="Qoptars" year={2024} />
+            <div className='text-gray-500'>All Copyrights Reserved &#169; | Qoptars | 2024</div>
             <div className="flex space-x-6 sm:mt-0 sm:justify-center">
               <img className='max-w-[210px]' src='/images/badges.png' />
             </div>
